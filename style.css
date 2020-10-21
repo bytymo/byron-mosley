@@ -4,6 +4,10 @@
     Thinkful Web Portfolio
 */
 
+/*
+UNIVERSAL RESET AND RULES
+*/
+
 * {
     font-family: 'Courier New', Courier, monospace;
     color: #303030;
@@ -19,13 +23,9 @@
 
 }
 
-#intro, #about, #contact {
-    width: 85%;
-}
-
-hr {
-    margin: 50px 500px;
-}
+/*
+HEADER AREA
+*/
 
 header {
     padding: 10px;
@@ -35,7 +35,6 @@ header {
 #banner-name {
     font-size: 64px;
 }
-
 
 /*
 LINKS
@@ -73,23 +72,36 @@ MAIN
     border-radius: 20px;
 }
 
-.map {
-    margin: 5em auto;
-    width: fit-content;
-}
-
 h2 {
     font-size: 48px;
     text-align: center;
+}
+
+#intro, #about, #contact {
+    width: 85%;
 }
 
 #about p {
     text-align: justify;
 }
 
+hr {
+    margin: 50px 500px;
+}
+
+.long-hr {
+    margin: 0px 15px 50px 15px;
+}
+
+.map {
+    margin: 5em auto;
+    width: fit-content;
+}
+
 /*
 FOOTER
 */
+
 .footer {
     font-size: small;
     text-align: center;

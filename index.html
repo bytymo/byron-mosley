@@ -9,15 +9,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" href="style.css"> <!-- normalize stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- font awesome link for GitHub and LinkedIn icons -->
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Byron Mosley | Software Developer</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <h1 id="banner-name">Byron Mosley</h1>
         <h3>Software Developer</h3>
+        <!-- Psudo nav system for jump down links -->
         <nav>
             <h4>Jump to: 
                 <a href="#intro">Intro</a>
@@ -27,63 +29,78 @@
         </nav>
     </header>
 
+    <hr class="long-hr">
+
+    <!-- MAIN -->
     <main>
         <div id="wrapper">
-            <div id="profile-img">
-                <img src="/images/profile.jpg" alt="a profile picture of myself sitting on a grey couch, smiling and working on my laptop in the living room, at the coffee table. my phone and coffee mug are to the right of the computer, and an orange book is to the left.">
-            </div>
-            <div id="intro">
-                <h2 id="welcome-msg">Hello!</h2>
-                <ul>
-                    <li>I am a software developer from Phoenix, AZ</li>
-                    <li>I love discovering new musicicians and styles of music</li>
-                    <li>I aspire to one day publish my own novel</li>
-                    <li>I love the minimalist and vintage themes from the Great Depression era</li>
-                    <li>I love taking on new challenges, especially ones I once thought were impossible to achieve</li>
-                </ul>
-            </div>
-
-            <hr>
-
-            <div id="about">
-                <h2>Who I am</h2>
-
-                <p>Creativity has always defined who I am, in one way or another. Whether it be writing the next short story, sketching in my artbook, learning how to play the guitar or discovering new music; creativity and art have continued to be a part of my life. And yet, for years I spent my time pursuing career fields that never allowed for such expression. First the psychology route, then the hospitality industry, followed by the medical field. To me, creativity didn't make it in the real world.</p>
-                
-                <p>
-                    And then in 2018 when I was working in the medical field on a waitlist to work in the operating room, I began looking for ways to make some side income. Web developement seemed to be a very popular suggestion among all of the articles and Youtube videos. I thought if it was so suggested, there must be something to it, something I never knew about if it was so widely sought out. And that was the start of the next chapter in my life. I love the balance of consistancy and evolution in coding; how similar yet entirely different each language is to the next. And how creative you can be with the design and implementation of the code.
-                </p>
-
-                <p>
-                    I joined Thinkful's prep course in October of 2020, and will be joining the December or January start date to continue my software developer journey. I am excited to have direction, mentorship, and all of the resources I need to shape myself into a better developer; and know that when I graduate from their program, I will have developed the skills and knowledge to be a competent developer.
-                </p>
-            </div>
-
-            <hr>
-
-            <div id="contact">
-                <h2>Contact</h2>
-
-                
-
-                <p>Please feel free to contact me via the following methods:</p>
-                <ul>
-                    <li><a href="mailto:mosleyb91@outlook.com">Email</a></li>
-                    <li><a href="http://linkedin.com/in/byron-mosley" target="blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/bytymo" target="blank">GitHub</a></li> 
-                </ul>
-                
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d99544.35255233193!2d-112.05797981669426!3d33.428367123771174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1603297012026!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <article>
+                <!-- Profile image of myself -->
+                <div id="profile-img">
+                    <img src="images/profile.jpg" alt="a profile picture of myself sitting on a grey couch, smiling and working on my laptop in the living room, at the coffee table. my phone and coffee mug are to the right of the computer, and an orange book is to the left.">
                 </div>
-            </div>
+                <!-- INTRO SECTION -->
+                <section id="intro">
+                    <h2 id="welcome-msg">Hello!</h2> <!-- Changes to "Good morning", "Good afternoon", or "Good evening" based on what time it is locally -->
+                    
+                    <!-- A small area to give 5 quick facts about me in no particular order -->
+                    <ul>
+                        <li>I am a software developer from Phoenix, AZ</li>
+                        <li>I love discovering new musicicians and styles of music</li>
+                        <li>I aspire to one day publish my own novel</li>
+                        <li>I love the minimalist and vintage themes from the Great Depression era</li>
+                        <li>I love taking on new challenges, especially ones I once thought were impossible to achieve</li>
+                    </ul>
+                </section>
+                
+                <hr> <!-- horizontal rule -->
+
+                <!-- ABOUT SECTION -->
+                <section id="about">
+                    <h2>Who I am</h2>
+
+                    <p>
+                        Creativity has always defined who I am, in one way or another. Whether it be writing the next short story, sketching in my artbook, learning how to play the guitar or discovering new music; creativity and art have continued to be a part of my life. And yet, for years I spent my time pursuing career fields that never allowed for such expression. First the psychology route, then the hospitality industry, followed by the medical field. To me, creativity didn't make it in the real world.
+                    </p>
+                    
+                    <p>
+                        And then in 2018 when I was working in the medical field on a waitlist to work in the operating room, I began looking for ways to make some side income. Web developement seemed to be a very popular suggestion among all of the articles and Youtube videos. I thought if it was so suggested, there must be something to it, something I never knew about if it was so widely sought out. And that was the start of the next chapter in my life. I love the balance of consistancy and evolution in coding; how similar yet entirely different each language is to the next. And how creative you can be with the design and implementation of the code.
+                    </p>
+
+                    <p>
+                        I joined Thinkful's prep course in October of 2020, and will be joining the December or January start date to continue my software developer journey. I am excited to have direction, mentorship, and all of the resources I need to shape myself into a better developer; and know that when I graduate from their program, I will have developed the skills and knowledge to be a competent developer.
+                    </p>
+                </section>
+
+                <hr> <!-- horizontal rule -->
+
+                <!-- CONTACT SECTION -->
+                <section id="contact">
+                    <h2>Contact</h2>
+
+                    <p>Please feel free to contact me via the following methods:</p>
+                    <!-- List of three ways to get in contact (email, linkdin, github) -->
+                    <ol>
+                        <li><a href="mailto:mosleyb91@outlook.com">Email</a></li>
+                        <li><a href="http://linkedin.com/in/byron-mosley" target="blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/bytymo" target="blank">GitHub</a></li> 
+                    </ol>
+                    
+                    <!-- Local map of the Phoenix area -->
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d99544.35255233193!2d-112.05797981669426!3d33.428367123771174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1603297012026!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </section>
+            </article>
+            
         </div>
         
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <p class="footer">&copy; Byron Mosley 2020</p>
-
+        <!-- LinkedIn and GitHub icons -->
         <div class="corner-links">
             <a href="http://linkedin.com/in/byron-mosley" target="blank" class="icons"><i class="fab fa-linkedin"></i></a>
 
@@ -91,6 +108,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript file. Currently only changes the message from "Hello" to "Good morning/afternoon/evening!" -->
     <script src="script.js"></script>
 </body>
 </html>
