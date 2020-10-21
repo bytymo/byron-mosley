@@ -86,11 +86,13 @@ h2 {
 }
 
 hr {
-    margin: 50px 500px;
+    margin: 50px auto;
+    width: 30%;
 }
 
 .long-hr {
-    margin: 50px 15px;
+    margin: 0px auto 50px;
+    width: 95%;
 }
 
 .map {
